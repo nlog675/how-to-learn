@@ -6,7 +6,7 @@
     color: #000000;
   }
 
-  .link__hover:hover{
+  .link-hover:hover{
     opacity: .5;
     transition: .3s linear;
   }
