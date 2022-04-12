@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./vendor/normalize.css">
   <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
@@ -21,7 +20,7 @@
         </a>
       </p>
       <img src="./images/header-image.png" alt="Опять двойка" class="header__main-illustration">
-      <div class="header__square-pic animated" ></div>
+      <div class="header__square-pic rotation" ></div>
     </header>
     <main class="content">
       <section class="description">
@@ -48,7 +47,7 @@
         <h2 class="section-title">
           Техники обучения
         </h2>
-        <p class="section-subtitle techniques__section-subtitle">
+        <p class="section-subtitle">
           Пять практик от Барбары Оакли
         </p>
         <ul class="cards">
@@ -106,14 +105,14 @@
         <p class="section-subtitle">
           Для тех, кто любит прокрастинировать
         </p>
-        <div class="video__iframes">
-          <div class="video__iframe">
-            <iframe width="515" height="316" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
-          </div>
-          <div class="video__iframe">
-            <iframe width="515" height="316" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
-          </div>
-        </div>
+        <ul class="video__iframes">
+          <li>
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/arj7oStGLkU" allowfullscreen></iframe>
+          </li>
+          <li>
+            <iframe class="video__iframe" src="https://www.youtube.com/embed/5MgBikgcWnY" allowfullscreen></iframe>
+          </li>
+        </ul>
       </section>
       <section class="oakley">
         <article class="two-columns">
@@ -188,6 +187,9 @@
           <p class="table__text">
             Число взрослых людей моложе 25 лет, не имеющих образования для трудоустройства
           </p>
+          <p class="table__text">
+            Всемирный Банк, 2017
+          </p>
         </li>
         <li class="table__cell">
           <h3 class="table__heading">
@@ -226,9 +228,9 @@
           <p class="khan__quote">
             Страсть и новаторство Сала Хана меняют процесс обучения миллионов студентов по всему миру. Книгу «Весь мир — школа» нужно прочитать всем, кто занимается образованием — так учащиеся повсюду смогут получить навыки и знания, которые приносят успех в школе, карьере и жизни.
           </p>
-          <p class="khan__quote-author">
+          <h3 class="khan__quote-author">
             Джордж Лукас
-          </p>
+          </h3>
           <p class="khan__quote-author-subline">
             Кинорежиссер, продюсер
           </p>
@@ -329,7 +331,7 @@
                 </p>
               </li>
           </ul>
-          <div class="kaufman__triangle animated">
+          <div class="kaufman__triangle rotation">
           </div>  
       </section>
       <section class="resources">
@@ -339,7 +341,6 @@
         <p class="section-subtitle">
           Больше материалов о техниках и лайфхаках обучения
         </p>
-        <nav>
           <ul class="resources__logo-zone">
             <li>
               <a href="#" target="_blank" class="resources__link link-hover">
@@ -362,7 +363,6 @@
               </a>
             </li>
           </ul>
-        </nav>
       </section>
     </main>
     <footer class="footer">
